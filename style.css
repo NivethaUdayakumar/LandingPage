@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.Logo{
+    width:50px;
+}
+.Img-container{
+    width: 15%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+nav{
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: row;
+}
+.Nav-Container{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+.Menu{
+    display: inline-block;
+    margin: 5px 20px;
+}
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
