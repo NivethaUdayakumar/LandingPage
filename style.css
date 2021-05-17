@@ -1,32 +1,70 @@
 body{
     margin: 0;
+    background: url(https://wallpapercave.com/wp/wp3612579.png);
+    padding: 0;
+    box-sizing: border-box;
 }
+
 .Logo{
-    width:50px;
+    width:150px;
 }
+
 .Img-container{
-    width: 15%;
+    width: 30%;
     align-items: center;
     justify-content: center;
     display: flex;
-
 }
+
 nav{
-    background-color: cornflowerblue;
+    background-color:#333;
     display: flex;
     flex-direction: row;
 }
+
 .Nav-Container{
     display: flex;
     width: 100%;
     justify-content: flex-end;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
 }
+
 .Menu{
     display: inline-block;
-    margin: 5px 20px;
+    margin: 0px;
 }
+
 a{
     text-decoration: none;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    font-family: "Poppins", sans-serif;
+    color: rgb(255, 255, 255);
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
 }
+  
+ ul li a:hover {
+    background-color: #111;
+  }
+
+  .Jumbotron{
+      width: 100%;
+      height: 600px;
+      display: absolute;
+  }
+
+  .Hero-container{
+      width:100%;
+      height:600px;
+      background-color: lightgoldenrodyellow;
+      top:0;
+  }
+
+  .Jumbotron-container{
+      display: absolute;
+  }
