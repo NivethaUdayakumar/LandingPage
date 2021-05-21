@@ -1,6 +1,5 @@
 body{
     margin: 0;
-    background: url(https://wallpapercave.com/wp/wp3612579.png);
     padding: 0;
     box-sizing: border-box;
 }
@@ -76,20 +75,23 @@ a{
   .Jumbotron-container{
       position: absolute;
       align-items: center;
-
   }
-  .Call-to-action{
-      border: none;
-      font-family: "Poppins";
-      background-color: transparent;
-      font-size: 0.8em;
-      text-decoration: underline;
-      color:violet;
-      transition: transform 0.3s ease-out;
 
+  .Call-to-action{
+    color: rgb(72, 255, 0);
+    letter-spacing: 1px;
+    font-family: "Poppins", sans-serif;
+    background-color: transparent;
+    border: none;
+    font-size: 0.8em;
+    transition: transform 0.3s ease-out;
   }
 
   .Call-to-action:hover{
       transform: translateX(50px);
       cursor: pointer;
+  }
+
+  .Featuring-container{
+      
   }
