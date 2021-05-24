@@ -46,68 +46,51 @@ a{
     text-align: center;
     padding: 14px 16px;
 }
-  
- ul li a:hover {
-    background-color: #111;
-  }
 
-  .Jumbotron{
-      width: 100%;
-      height: 600px;
-      display: absolute;
-  }
+ul li a:hover {
+background-color: #111;
+}
 
-  .Hero-container{
-      width:100%;
-      height:600px;
-      background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-      color: white;
-      font-family: "Poppins", sans-serif;
-      font-size: 40px;
-      top:0;
-      position: absolute;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-  }
+.Jumbotron{
+    width: 100%;
+    height: 600px;
+    display: absolute;
+}
 
-  .Jumbotron-container{
-      position: absolute;
-      align-items: center;
-  }
-
-  .Call-to-action{
-    color: rgb(72, 255, 0);
-    letter-spacing: 1px;
+.Hero-container{
+    width:100%;
+    height:600px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    color: white;
     font-family: "Poppins", sans-serif;
-    background-color: transparent;
-    border: none;
-    font-size: 0.8em;
-    transition: transform 0.3s ease-out;
-  }
-
-  .Call-to-action:hover{
-      transform: translateX(50px);
-      cursor: pointer;
-  }
-
-  .Featuring-container{
-    position: relative;
-    width: 100%; 
-    display: grid;
-    grid-template-columns: auto auto;
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
     align-items: center;
-  }
+    justify-content: center;
+}
 
-.Featuring-image{
-      width:100%;
-  }
-  
-  .Right-featuring{
-      padding-left: 30px;
-      padding-right: 30px;
-      text-align: center;
-      font-family: "Poppins", sans-serif;
-      font-size: 20px;
-  }
+.Jumbotron-container{
+    align-items: center;
+}
+
+.Call-to-action{
+color: rgb(72, 255, 0);
+letter-spacing: 1px;
+font-family: "Poppins", sans-serif;
+background-color: transparent;
+border: none;
+font-size: 0.8em;
+transition: transform 0.3s ease-out;
+}
+
+.Call-to-action:hover{
+    transform: translateX(50px);
+    cursor: pointer;
+}
+
+.Featuring-container{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
