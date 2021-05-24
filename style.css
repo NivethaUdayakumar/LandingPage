@@ -93,5 +93,21 @@ a{
   }
 
   .Featuring-container{
-      
+    position: relative;
+    width: 100%; 
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+  }
+
+.Featuring-image{
+      width:100%;
+  }
+  
+  .Right-featuring{
+      padding-left: 30px;
+      padding-right: 30px;
+      text-align: center;
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
   }
